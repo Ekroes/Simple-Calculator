@@ -14,7 +14,6 @@ import javax.swing.*;
 public class Validator_Class {
 
     public static boolean IsPresentDouble(JTextField value, String Name) {
-
         try {
             // if you can successfully parse your text, return true - they entered a valid number
             double d = Double.parseDouble(value.getText());
